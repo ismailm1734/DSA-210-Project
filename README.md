@@ -36,3 +36,12 @@ This project relies on publicly available historical ATP match data, which may i
 
 **Future Work**  
 To enhance model accuracy and depth, future work could incorporate real-time player statistics, physical metrics (such as serve speed distributions and movement tracking), and external contextual data such as weather conditions or tournament stage. Advanced models, including gradient boosting or neural networks, could also be explored. Finally, collecting and analyzing personal tennis performance data could offer a more individualized extension of this study.
+
+**Phase 2: Exploratory Data Analysis (EDA) Summary
+During Phase 2, I examined the ATP match dataset and explored several basic patterns in the data. I looked at the general structure of the dataset, missing values, and the distribution of key performance variables such as aces, double faults, and surface types. I also created visualizations to understand how features behave, including histograms, a correlation heatmap, and a surface distribution chart. The dataset shows clear differences between winners and losers in multiple areas, especially in serve-related statistics.
+Hypothesis Testing Summary
+I performed several hypothesis tests to check whether some match statistics differ between winners and losers.
+H1: Winners and losers differ in first-serve points won.
+H2: Winners and losers differ in break points won.
+H3: The playing surface is related to the probability that the higher-ranked player wins.
+The tests show that some performance metrics have statistically meaningful differences between winners and losers, while surface also plays a role in match outcomes. These findings are consistent with the general understanding of tennis, where serve performance and break-point conversion are important factors.
